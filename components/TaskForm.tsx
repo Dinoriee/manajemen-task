@@ -104,22 +104,6 @@ export default function TaskForm({ users, dataUser }: TaskFormProps) {
         </select>
       </div>
 
-      {isEdit && (
-        <div className="flex items-center gap-3 p-3 border border-gray-700 rounded-md bg-gray-800/50">
-          <input 
-            type="checkbox" 
-            name="isCompleted" 
-            id="isCompleted"
-            // Set default checked sesuai data database
-            defaultChecked={dataUser?.isCompleted} 
-            className="w-5 h-5 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-          />
-          <label htmlFor="isCompleted" className="text-sm font-medium text-gray-300 cursor-pointer select-none">
-            Tandai sebagai <strong>Selesai</strong>
-          </label>
-        </div>
-      )}
-
       <div className="pt-4">
         <button
           type="submit"
