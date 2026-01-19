@@ -49,13 +49,4 @@ Setelah database siap, jalankan server:
 
 ```bash
 npm run dev
-```Cara Install & Setup (Installation)
-
-Ikuti langkah-langkah berikut untuk menjalankan project di lokal:
-
-### 1. Clone Repository
-Buka terminal dan jalankan perintah:
-```bash
-git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
-cd nama-repo
 ```
