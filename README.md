@@ -9,8 +9,8 @@ Ikuti langkah-langkah berikut untuk menjalankan project di lokal:
 ### 1. Clone Repository
 Buka terminal dan jalankan perintah:
 ```bash
-git clone [https://github.com/username-anda/nama-repo.git](https://github.com/username-anda/nama-repo.git)
-cd nama-repo
+git clone https://github.com/Dinoriee/manajemen-task.git
+cd manajemen-task
 ```
 
 ### 2. Install Dependencies
@@ -27,8 +27,9 @@ Project ini membutuhkan variabel environment untuk koneksi database.
 2. Isi file tersebut dengan format berikut:
 
 ```env
-# Ganti url di bawah sesuai dengan database lokal Anda
-DATABASE_URL="mysql://root:password@localhost:3306/nama_database"
+# Sesuaikan user, password, dan nama database
+# Format: mysql://USER:PASSWORD@HOST:PORT/NAMA_DATABASE
+DATABASE_URL="mysql://root:@localhost:3306/manajemen_task_db"
 ```
 *(Catatan: Sesuaikan `DATABASE_URL` dengan database yang Anda pakai, apakah MySQL, PostgreSQL, atau SQLite).*
 
